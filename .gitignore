@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+backend/utils/__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment inside backend
+backend/venv/
+
+# Environment configuration file inside backend
+backend/.env
+
+# Logs inside backend
+backend/backend.log
+
+# Flask specific
+instance/
+*.pyc
+
+# Logs and debug files
+*.log
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Test coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+.cache
+
+# Static analysis tools
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Python egg files
+*.egg-info/
+.eggs/
+
+# Build files
+build/
+dist/
+*.egg
+
+# Temporary files
+*.temp
+*.out
+*.pid
+
+# Node modules (if frontend uses Node.js)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Frontend static builds
+/static/
+*.map
+*.html
+
+# NLTK data (if you download locally to nltk_data/)
+nltk_data/
+
+# Backend-specific files
+backend/backend.log
+backend/db.sqlite3
